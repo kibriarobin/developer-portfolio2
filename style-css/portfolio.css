@@ -78,6 +78,7 @@ main{
     text-align: center;
 }
 .section-title{
+    text-align: center;
     margin-bottom: 30px;
     font-size: 35px;
     font-weight: 700;
@@ -85,7 +86,12 @@ main{
 .section-description{
     font-size: 18px;
     color: #757575;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.i-do-description{
+    padding-left: 170px;
+    padding-right: 170px;
 }
 .about-info{
     display: flex;
@@ -99,4 +105,29 @@ main{
     color: #474747;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* what i do section */
+.what-i-do{
+    margin-top: 130px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-decription{
+    color: #757575;
+    font-size: 16px;
 }
