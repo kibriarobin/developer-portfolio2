@@ -110,6 +110,7 @@ main{
 /* what i do section */
 .what-i-do{
     margin-top: 130px;
+    margin-bottom: 130px;
 }
 .skill-container{
     display: flex;
@@ -130,4 +131,38 @@ main{
 .skill-decription{
     color: #757575;
     font-size: 16px;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume .sub{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+.resume-button{
+    margin-top: 40px;
+    text-align: center;
 }
